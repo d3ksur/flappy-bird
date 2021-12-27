@@ -19,6 +19,7 @@
         0: new Audio("audio wing.ogg"),
         1: new Audio("audio wing.ogg"),
         2: new Audio("audio wing.ogg"),
+       
     }
     let img_piso
     let img_fondo
@@ -88,7 +89,7 @@
             function clic() {
                    if(caer){
                     pajaro.aceleracion.set(createVector(0, -5))
-                    audio_wing.play()
+                   audio_wing.play()
                    }else{
                     pajaro.resetearVariables()//QUE ES LO QUE ESTA ESTOCURRIENDO
                     caer = true
